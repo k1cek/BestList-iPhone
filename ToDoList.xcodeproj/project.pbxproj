@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F54EA7302587862000E698E5 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EA72F2587862000E698E5 /* ToDoListApp.swift */; };
-		F54EA7322587862000E698E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EA7312587862000E698E5 /* ContentView.swift */; };
+		F54EA7322587862000E698E5 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EA7312587862000E698E5 /* ChecklistView.swift */; };
 		F54EA7342587862100E698E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54EA7332587862100E698E5 /* Assets.xcassets */; };
 		F54EA7372587862100E698E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54EA7362587862100E698E5 /* Preview Assets.xcassets */; };
+		F5F373D8258A242800B6FD11 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F373D7258A242800B6FD11 /* ChecklistItem.swift */; };
+		F5F373DB258A253100B6FD11 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F373DA258A253100B6FD11 /* Checklist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F54EA72C2587862000E698E5 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54EA72F2587862000E698E5 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
-		F54EA7312587862000E698E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F54EA7312587862000E698E5 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
 		F54EA7332587862100E698E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54EA7362587862100E698E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F54EA7382587862100E698E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F373D7258A242800B6FD11 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		F5F373DA258A253100B6FD11 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				F54EA72F2587862000E698E5 /* ToDoListApp.swift */,
-				F54EA7312587862000E698E5 /* ContentView.swift */,
+				F54EA7312587862000E698E5 /* ChecklistView.swift */,
 				F54EA7332587862100E698E5 /* Assets.xcassets */,
 				F54EA7382587862100E698E5 /* Info.plist */,
 				F54EA7352587862100E698E5 /* Preview Content */,
+				F5F373D7258A242800B6FD11 /* ChecklistItem.swift */,
+				F5F373DA258A253100B6FD11 /* Checklist.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54EA7322587862000E698E5 /* ContentView.swift in Sources */,
+				F5F373DB258A253100B6FD11 /* Checklist.swift in Sources */,
+				F54EA7322587862000E698E5 /* ChecklistView.swift in Sources */,
+				F5F373D8258A242800B6FD11 /* ChecklistItem.swift in Sources */,
 				F54EA7302587862000E698E5 /* ToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
