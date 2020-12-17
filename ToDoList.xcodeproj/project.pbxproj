@@ -11,6 +11,7 @@
 		F54EA7322587862000E698E5 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EA7312587862000E698E5 /* ChecklistView.swift */; };
 		F54EA7342587862100E698E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54EA7332587862100E698E5 /* Assets.xcassets */; };
 		F54EA7372587862100E698E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54EA7362587862100E698E5 /* Preview Assets.xcassets */; };
+		F5B2E1DB258C132200FCDFE2 /* NewChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2E1DA258C132200FCDFE2 /* NewChecklistItemView.swift */; };
 		F5F373D8258A242800B6FD11 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F373D7258A242800B6FD11 /* ChecklistItem.swift */; };
 		F5F373DB258A253100B6FD11 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F373DA258A253100B6FD11 /* Checklist.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 		F54EA7332587862100E698E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54EA7362587862100E698E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F54EA7382587862100E698E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B2E1DA258C132200FCDFE2 /* NewChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChecklistItemView.swift; sourceTree = "<group>"; };
 		F5F373D7258A242800B6FD11 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		F5F373DA258A253100B6FD11 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 				F54EA7352587862100E698E5 /* Preview Content */,
 				F5F373D7258A242800B6FD11 /* ChecklistItem.swift */,
 				F5F373DA258A253100B6FD11 /* Checklist.swift */,
+				F5B2E1DA258C132200FCDFE2 /* NewChecklistItemView.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B2E1DB258C132200FCDFE2 /* NewChecklistItemView.swift in Sources */,
 				F5F373DB258A253100B6FD11 /* Checklist.swift in Sources */,
 				F54EA7322587862000E698E5 /* ChecklistView.swift in Sources */,
 				F5F373D8258A242800B6FD11 /* ChecklistItem.swift in Sources */,
